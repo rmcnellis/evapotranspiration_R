@@ -3,6 +3,9 @@ This repository contains the R functions necessary for calculating evapotranspir
 
 The script calc_ET.R contains code for two evapotranspiration functions. Both functions are dependent on the packages plantecophys and bigleaf in order to calculate wet bulb temperature and vapor pressure deficit. You must run 'install.packages(“plantecophys”)' and 'install.packages(“bigleaf”)' prior to running the code.
 
+## DOI badge
+[![DOI](https://zenodo.org/badge/264007622.svg)](https://zenodo.org/badge/latestdoi/264007622)
+
 ## calc_dual_ET
 This function uses the dual-source method for calculating evapotranspiration adapted from Shuttleworth & Wallace 1985. The function will calculate:
 - net radiation
